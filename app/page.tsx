@@ -81,7 +81,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-8 pb-24">
         <h2 className="text-3xl font-semibold mb-6">Contact</h2>
 
-        <p className="text-gray-400">Email : larrydrandrianasolod@gmail.com</p>
+        <p className="text-gray-400">Email : larryrandrianasolopro@gmail.com</p>
 
         <p className="text-gray-400 mt-2">
           LinkedIn : www.linkedin.com/in/larry-randrianasolo
