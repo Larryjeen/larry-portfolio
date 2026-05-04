@@ -45,22 +45,27 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-8 py-16">
         <h2 className="text-3xl font-semibold mb-8">Projets</h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8">
-            <h3 className="text-2xl font-medium">
-              Application Java – Gestion étudiante
-            </h3>
+        <div className='rounded-3xl border border-zinc-800 bg-zinc-950 p-8 hover:border-violet-500 transition'>
+  <h3 className='text-2xl font-medium'>
+    Application Java – Gestion étudiante
+  </h3>
 
-            <p className="text-gray-400 mt-4">
-              Développement d’une application desktop permettant la gestion des 
-              dossiers étudiants avec interface Java Swing et architecture orientée objet.
-            </p>
+  <p className='text-gray-400 mt-4'>
+    Application desktop permettant de gérer les dossiers étudiants avec interface graphique et architecture orientée objet.
+  </p>
 
-            <p className="mt-4 text-violet-400">
-              Java • Swing • POO
-            </p>
-          </div>
+  <p className='mt-4 text-violet-400'>
+    Java • Swing • POO
+  </p>
 
+  <a
+    href="https://github.com/Larryjeen/java-gestion-etudiant"
+    target="_blank"
+    className="inline-block mt-6 text-sm text-violet-400 hover:text-violet-300"
+  >
+    Voir sur GitHub →
+  </a>
+</div>
           <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8">
             <h3 className="text-2xl font-medium">
               Développement logiciel en C++
